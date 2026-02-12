@@ -1,6 +1,6 @@
 # WeLearnAnything.com
 
-Making it easier to learn anything.
+Making it easier to learn anything
 
 ## Stack
 
@@ -9,11 +9,13 @@ Making it easier to learn anything.
 - **AI:** Anthropic API
 - **Deployment:** Railway
 
-## Development
+## Local Development
 
-### Local Development
-
-`$ make dev`
-Runs both frontend and backend in one terminal
+`$ make dev`  
+Runs both frontend and backend in one terminal  
 Press Ctrl-C to stop both processes
 
+## Production Development
+
+`$ make prod`  
+Builds frontend and runs production Go server
